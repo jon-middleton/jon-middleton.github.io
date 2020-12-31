@@ -30,11 +30,12 @@ twitter_username: jamiddlet
 github_username:  jon-middleton
 
 # Build settings
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
-# remote_theme: benbalter/retlab
+# remote_theme: jon-middleton/minima-cmu
+# remote_theme: "mmistakes/minimal-mistakes@4.16.5"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
