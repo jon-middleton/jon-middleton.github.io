@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I'm Jon Middleton. I love solving problems, doing mathematics, talking about machine learning, and programming. As of now I'm a researcher at [Cerebriu A/S](https://www.cerebriu.com/), a Danish startup specializing in AI solutions for radiologists.
+I'm a PhD student in Computer Science at the [University of Copenhagen](https://di.ku.dk/english/), under the supervision of Stefan Sommer and Mads Nielsen, working on implicit and explicit data augmentation of human brain MRIs using deep generative models. My project is in partnership with [Cerebriu A/S](https://www.cerebriu.com/), a Danish startup specializing in AI solutions for radiologists. My project is supported by [Innovation Fund Denmark](https://innovationsfonden.dk/en), which promotes the invention and deployment of advanced technologies in Denmark.
 
 I hold postgraduate degrees (M.A. and C.Phil) in pure mathematics from the University of California, San Diego. I did research there, applying the representation theory of semi-simple Lie groups to optimization problems in conformal geometry.
 
