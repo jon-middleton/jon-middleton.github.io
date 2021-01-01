@@ -34,7 +34,7 @@ github_username:  jon-middleton
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
-# remote_theme: jon-middleton/minima-cmu
+remote_theme: "jon-middleton/minima@cmu"
 # remote_theme: "mmistakes/minimal-mistakes@4.16.5"
 
 # Exclude from processing.
