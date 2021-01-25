@@ -154,8 +154,8 @@ Finally, we note that we can give our optimization objective a little more meani
 \\]
 
 
-The first term measures the disparity between the approximate encoder and our generative model's prior belief about the distribution of codes. To minimize this KL divergence is to encourage the approximate encoder and the generative prior to sample latent data as similarly as possible.
+The first term measures the disparity between the approximate encoder and our generative model's prior belief about the distribution of codes. To optimize this KL divergence is to encourage the approximate encoder and the generative prior to sample latent data as similarly as possible.
 
-The second term is the expected likelihood of the code $$z$$ given observable $$x_j$$. This expectation is gotten from the approximate encoding procedure for $$x_j$$ given by $$q_\phi(z\vert x_j)$$. Accordingly, this term is called the *reconstruction loss*. To minimize it is to discourage the generative model from believing that the codes from which observables are reconstructed are close to the codes for $$x_j$$.
+The second term is the expected likelihood of the code $$z$$ given observable $$x_j$$. This expectation is gotten from the approximate encoding procedure for $$x_j$$ given by $$q_\phi(z\vert x_j)$$. To optimize it is to encourage the approximate posterior to map observables to codes which parametrize distributions on observable space that produce samples which are close to $$x_j$$. Accordingly, this term is called the *reconstruction loss*.
 
 [closed_form]: https://en.wikipedia.org/wiki/Closed-form_expression
